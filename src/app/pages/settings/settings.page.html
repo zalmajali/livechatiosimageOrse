@@ -59,8 +59,8 @@
       <div class="divNameOrder" style="padding:13px 13px 10px;">{{order_chat_one}}</div>
       <ion-item>
         <ion-radio-group value="{{selectedOption}}">
-          <ion-radio [labelPlacement]="first_dir" [justify]="first_dir" value="0"  (click)="changeOrder(0)" *ngIf="order_chat_tow">{{order_chat_tow}}</ion-radio>
-          <ion-radio [labelPlacement]="first_dir" [justify]="last_dir" value="1"  (click)="changeOrder(1)" *ngIf="order_chat_three">{{order_chat_three}}</ion-radio>
+          <ion-radio [labelPlacement]="first_dir" class="custom-radio" mode="md" [justify]="first_dir" value="1"  (click)="changeOrder(1)" *ngIf="order_chat_tow">{{order_chat_tow}}</ion-radio>
+          <ion-radio [labelPlacement]="first_dir" class="custom-radio" mode="md" [justify]="last_dir" value="0"  (click)="changeOrder(0)" *ngIf="order_chat_three">{{order_chat_three}}</ion-radio>
         </ion-radio-group>
       </ion-item>
     </div>
