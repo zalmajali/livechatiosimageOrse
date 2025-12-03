@@ -21,7 +21,7 @@
     <preference name="android-minSdkVersion" value="22" />
     <preference name="android-targetSdkVersion" value="35" />
     <preference name="android-compileSdkVersion" value="35" />
-  <preference name="UseSwiftPackageManager" value="false" />
+    <preference name="UseSwiftPackageManager" value="false" />
     <platform name="android">
         <config-file mode="merge" parent="/manifest" target="AndroidManifest.xml">
             <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
